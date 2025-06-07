@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estaterune - Bitcoin-Based Real Estate Token</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f6f8fa; margin: 0; padding: 2rem; }
+    .container { max-width: 800px; margin: auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h1, h2 { color: #0c3c78; }
+    p, li { line-height: 1.6; }
+    .section { margin-bottom: 2rem; }
+    code { background: #f0f0f0; padding: 0.2rem 0.5rem; border-radius: 4px; font-family: monospace; }
+    a { color: #0c3c78; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Estaterune</h1>
+    <p><strong>Property:</strong> 25m² Apartment, Madalińskiego 23/58h, Wrocław, Poland</p>
+    <p><strong>Token ID (Rune):</strong> 899789:1111</p>
+    <p><strong>Current Owner Wallet:</strong> bc1psyfq5v82prutxmmfy6ttl895zxkavlhvdfuwalnj0s4w4adnmxnqsg2kyn</p>
+
+    <div class="section">
+      <h2>🔗 On-Chain Data</h2>
+      <ul>
+        <li><strong>Rune on Unisat:</strong> <a href="https://unisat.io/rune/899789:1111" target="_blank">View Rune</a></li>
+        <li><strong>Metadata Inscription:</strong> <a href="https://ordinals.com/inscription/c5112f770a2fd773388ea19ed93358b885713de3bfeae6b6791a8c41a3574d47i0" target="_blank">View on Ordinals</a></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📁 IPFS Documents</h2>
+      <ul>
+        <li><strong>PDF Document:</strong> <a href="https://ipfs.io/ipfs/bafkreid6p5y3tw33hdtordgi4lika4nxod2bnvggtst7r3nhbh4qzlahbm" target="_blank">View PDF</a></li>
+        <li><strong>Metadata JSON:</strong> <a href="https://ipfs.io/ipfs/bafkreigq36pdtj2xuiphqllqnaxuablw6ph4ixpol3blxlnyen7curappu" target="_blank">View Metadata</a></li>
+        <li><strong>SHA-256 (PDF):</strong> <code>ada623601fa5c72a4819e4759477637e89035bc8af7e5458c2429853853e55a8</code></li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>✅ Verification Instructions</h2>
+      <ol>
+        <li>Open the metadata JSON and confirm it contains the correct <code>rune_id</code>, <code>pdf</code> CID, and <code>sha256</code>.</li>
+        <li>Download the PDF file and verify its SHA-256 hash using a tool like:<br><code>shasum -a 256 [filename].pdf</code></li>
+        <li>Compare the hash with the one listed above.</li>
+      </ol>
+    </div>
+  </div>
+</body>
+</html>
