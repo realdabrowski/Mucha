@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Estaterune - Bitcoin-Based Real Estate Token</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+  <script src="app.js" defer></script>
   <style>
     body { font-family: Arial, sans-serif; background: #f6f8fa; margin: 0; padding: 2rem; }
     .container { max-width: 800px; margin: auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
@@ -21,6 +23,12 @@
     <p><strong>Property:</strong> 25m² Apartment, Madalińskiego 23/58h, Wrocław, Poland</p>
     <p><strong>Token ID (Rune):</strong> 899789:1111</p>
     <p><strong>Current Owner Wallet:</strong> bc1psyfq5v82prutxmmfy6ttl895zxkavlhvdfuwalnj0s4w4adnmxnqsg2kyn</p>
+
+    <div id="asset-section" class="section">
+      <h2>Asset List</h2>
+      <input class="search" placeholder="Search" />
+      <ul class="list" id="asset-list"></ul>
+    </div>
 
     <div class="section">
       <h2>🔗 On-Chain Data</h2>
